@@ -11,20 +11,206 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
-    <h1 class="text-center">Página en proceso...</h1>
-    <div>
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg p-lg-2">
+      <div class="container-fluid">
+        <a class="navbar-brand"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#acerca-de-mi">Acerca de mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#habilidades">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portafolio">Portafolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cv">CV</a>
+            </li>
+            <li class "nav-item">
+              <a class="nav-link" href="#certificaciones">Certificaciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>    
+
+    <!-- PORTADA -->
+    <div class="mb-3">
       <img
-        src="https://vacantesdigitales.com/wp-content/uploads/2023/01/vacantes-digitales.gif?cache=Desarrollador%20de%20aplicaciones%20de%20inteligencia%20artificial"
-        alt="Desarrollador trabajando..."
+        src="./img/foto-portada.png"
+        class="img-fluid"
+        alt="iamgen portada"
       />
     </div>
+
+    <hr />
+
+    <!-- ACERCA DE MÍ -->
+    <div class="container p-5" id="acerca-de-mi">
+      <div>
+        <h2 class="mb-4">Acerca de mí</h2>
+        <p class="fs-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae itaque
+          dolor facere aspernatur totam, cupiditate ullam deserunt quod. Inventore
+          hic ipsum consequuntur aperiam vel, sunt ducimus quas explicabo.
+          Impedit, quis? Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Esse eius labore libero numquam in nesciunt adipisci ipsa, iure
+          aspernatur. Quidem nihil corporis cum mollitia omnis dolorem natus
+          facilis aliquam voluptatum. Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Veritatis, consectetur architecto, ipsam adipisci rem
+          provident deleniti rerum et tempora, aliquid nulla illo. Aliquid enim
+          sapiente accusamus quam natus eius voluptatibus! Lorem ipsum dolor sit
+          amet, consectetur adipisicing elit. Consectetur, est ducimus!
+          Dignissimos, excepturi a dolorum, voluptatum, laudantium explicabo
+          consequuntur facere ipsam eos iure molestias atque vero sequi nihil
+          magnam omnis.
+        </p>
+      </div>
+      <div>
+        <img class="img-portada" src="./img/foto-cv.png" alt="imagen portada">
+      </div>
+    </div>
+
+    <hr />
+
+    <!-- HABILIDADES -->
+    <div id="habilidades">
+
+    </div>
+
+    <!-- PORTAFOLIO -->
+    <div class="container p-5" id="portafolio">
+      <h2>Portafolio</h2>
+      <div class="d-flex p-2">
+        <!-- batatabit -->
+        <div class="card m-4" style="width: 18rem">
+          <a href="https://lucia-machado.github.io/Batatabit-clone/">
+            <img
+              src="https://s3-alpha.figma.com/hub/file/684346974/249314bc-fb8e-4ba0-9b2a-d5f224f6cc4b-cover.png"
+              class="card-img-top"
+              alt="imagen logo batatabit"
+            />
+          </a>
+          <div class="card-body">
+            <p class="card-text">
+              Proyecto desarrollado durante el curso de "Responsive Design" en
+              la plataforma Platzi.
+            </p>
+          </div>
+        </div>
+
+        <!-- google -->
+        <div class="card m-4" style="width: 18rem">
+          <a href="https://lucia-machado.github.io/Google-clone/">
+            <img
+              src="https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA=w3840-h2160-rw"
+              class="card-img-top"
+              alt="logo de google"
+            />
+          </a>
+          <div class="card-body">
+            <p class="card-text">
+              Proyecto desarrollado durante el curso de "HTML y CSS práctico" en
+              la plataforma Platzi.
+            </p>
+          </div>
+        </div>
+
+        <!-- blog -->
+        <div class="card m-4" style="width: 18rem">
+          <a href="https://lucia-machado.github.io/Blog-ejemplo/">
+            <img
+              src="./img/Logo-negro.png"
+              class="card-img-top"
+              alt="logo de mi blog"
+            />
+          </a>
+          <div class="card-body">
+            <p class="card-text">
+              Proyecto desarrollado durante el curso de "Maquetación en CSS" en
+              la plataforma Platzi.
+            </p>
+          </div>
+        </div>
+
+        <!-- menu -->
+        <div class="card m-4" style="width: 18rem">
+          <a href="https://lucia-machado.github.io/menu-con-css-grid/">
+            <img
+              src="./img/logo-menu.jpg"
+              class="card-img-top"
+              alt="logo de menu"
+            />
+          </a>
+          <div class="card-body">
+            <p class="card-text">
+              Proyecto desarrollado durante el curso de "CSS Grid" en la
+              plataforma Platzi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <!-- CV -->
+    <div class="container p-5 cv-container" id="cv">
+      <div style="text-align: center">
+        <h2>¿Quieres echar un vistazo a mi currículum?</h2>
+        <p class="mt-3">Haz clic en la imagen para descargar mi currículum vitae ✨</p>
+      </div>
+      <div>
+        <a
+          href="https://drive.google.com/file/d/1sA3ySe7c0Fn8sJHPjEkYO0ucCyL36AcP/view?usp=sharing"
+          download
+        >
+          <img
+            class="img-mini-cv"
+            src="./img/img-mini-cv.jpeg"
+            alt="Currículum Vitae"
+          />
+        </a>
+      </div>
+    </div>
+
+    <hr />
+
+    <!-- CERTIFICACIONES -->
+    <div id="certificaciones">
+
+    </div>
+
+    <!-- CONTACTO MAIL -->
+    <div id="contacto">
+
+    </div>
+
+    <!-- FOOTER -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
   </body>
 </html>

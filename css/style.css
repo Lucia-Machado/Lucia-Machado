@@ -1,6 +1,21 @@
-img {
-    width: 800px;
+body {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
 }
-div {
-    text-align: center;
+
+.img-mini-cv {
+    width: 40%;
+    margin-left: 20vh;
+}
+.cv-container {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.navbar-brand img {
+    width: 50px;
+}
+.img-portada {
+    width: 300px;
 }
