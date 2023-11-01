@@ -2,20 +2,102 @@ body {
     font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
 }
 
+:root {
+    --violet: #D495CF;
+    --pink: #FA82BA;
+    --blue: #55598A;
+}
+
+/* NAV */
+.navbar-brand img {
+    width: 50vh;
+}
+.border-contact {
+    border: 2px var(--blue) solid;
+    border-radius: 10px;
+}
+.nav-item a:hover {
+    color: var(--blue);
+    border-radius: 15px;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* PORTADA */
+.container-portada {
+    text-align: center;
+    height: 500px;
+    margin-top: 25vh;
+}
+.container-portada h1 {
+    animation: backInUp !important;
+    animation-duration: 2s !important;
+}
+
+.img-portada {
+    width: 300px;
+}
+/* ACERCA DE MI */
+.container-acerca-de-mi{
+    background-color: var(--violet);
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* HABILIDADES */
+.container-habilidades {
+    text-align: center;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+}
+.container-habilidades h2 {
+    margin-bottom: 100px;
+    padding: 20px;
+    border: 5px var(--pink) solid;
+    border-radius: 20px;
+}
+
+/* PORTAFOLIO */
+.container-portafolio {
+    text-align: center;
+    margin-bottom: 15vh;
+}
+
+/* CV */
+
 .img-mini-cv {
-    width: 40%;
-    margin-left: 20vh;
+    width: 50%;
+    margin-left: 10vh;
 }
 .cv-container {
-    background-color: antiquewhite;
+    background-color: var(--pink);
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
 }
-.navbar-brand img {
-    width: 50px;
+
+/* FOOTER */
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border-top: 2px var(--blue) solid;
 }
-.img-portada {
-    width: 300px;
+
+.container-icons-footer {
+    display: flex;
+    align-items: center;
 }
+
+.container-icons-footer a {
+    margin: 10px;
+}
+.container-icons-footer img {
+    width: 40px;
+}
+
+  
