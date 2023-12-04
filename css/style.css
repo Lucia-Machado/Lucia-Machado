@@ -39,7 +39,7 @@ body {
 }
 /* ACERCA DE MI */
 .container-acerca-de-mi{
-    background-color: var(--violet);
+    background-color: peachpuff;
     text-align: center;
     border-radius: 20px;
 }
